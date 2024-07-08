@@ -65,7 +65,7 @@ header {
   
   .navbar-brand img {
     height: 25px;
-    margin-left:2%;
+    margin-left:10%;
 
   }
   
@@ -713,77 +713,75 @@ margin-right:30%;
 
 
 
-.report {
-    align-items: center;
-    margin-top: 10%;
+
+
+.carbon-calculator {
     background-color: #DAF8E0;
-    margin-left: 10%;
-    margin-right: 10%;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    text-align: center;
     border-radius: 20px;
-    padding: 10px;
-}
-
-.report h3 {
-    margin-top: 5%;
-    margin-left: 35%;
+    max-width: 800px;
+    margin: 40px auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .container {
+    max-width: 100%;
+  }
+  
+  .subtitle {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 1em;
     font-weight: bold;
-    font-size: 22px;
-}
-
-.report h1 {
-    margin-left: 15%;
-    font-weight: bold;
-    font-size: 48px;
-}
-
-.report h4 {
-    margin-left: 32%;
-    font-weight: semi-bold;
-    font-size: 22px;
-}
-
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    border-radius: 50px;
-    text-decoration: none;
-    margin: 10px 5px;
-    transition: background-color 0.3s, color 0.3s;
-    width: 120px;
-    height: 25px;
-}
-
-.calculate-now {
-    background-color: #5cda78;
+  }
+  
+ .carbon-calculator h1 {
+    font-size: 2.2em;
     color: black;
-    margin-left: 35%;
+    margin: 10px 0;
     font-weight: bold;
-    font-size: 17px;
-}
-
-.calculate-now:hover {
-    background-color: #70ff8f;
-}
-
-.how-it-works {
+  }
+  
+  .launch-text {
+    font-weight: bold;
+    margin: 10px 0 20px;
+    font-size: 1em;
+    text-transform: uppercase;
+  }
+  
+  .know-more-btn {
     background-color: white;
+    border: 1px solid #61C977;
     color: black;
-    border: 2px solid #5cda78;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'Inter', sans-serif;
     font-weight: bold;
-    font-size: 17px;
-}
 
-.how-it-works:hover {
-    background-color: #5cda78;
-    color: rgb(11, 10, 10);
-}
-
-.reportimage {
-    margin-top: 4%;
-    margin-left: 11%;
-    width: 799px;
-    height: 399px;
-}
+  }
+  
+  .know-more-btn:hover {
+    background-color: #00a86b;
+    color: white;
+  }
+  
+  .report-image {
+    margin-top: 30px;
+    max-width: 100%;
+  }
+  
+  .report-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(27, 22, 22, 0.1);
+  }
 
 
 .big-circle {

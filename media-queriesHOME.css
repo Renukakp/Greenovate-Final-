@@ -371,15 +371,7 @@
     .circle-container{
         display:none;
     }
-    .report h1 {
-        font-size: 40px;
-    }
-    
-    .reportimage {
-        width: 80%;
-        height: auto;
-        margin-left: 10%;
-    }
+   
     .circle-container{
         display:none;
     }
@@ -649,14 +641,7 @@
     .circle-container{
         display:none;
     }
-    .report h3, .report h4, .report h1 {
-        margin-left: 0;
-        text-align: center;
-    }
-    
-    .report h1 {
-        font-size: 32px;
-    }
+   
     
     .btn {
         display: block;
@@ -668,10 +653,7 @@
         margin-left: auto;
     }
     
-    .reportimage {
-        width: 90%;
-        margin-left: 5%;
-    }
+   
     .circle-container{
         display:none;
     }
@@ -709,6 +691,27 @@
     .contact-form input,
     .contact-form textarea {
         width: 90%;
+    }
+    .carbon-calculator {
+        padding: 30px;
+        margin: 20px auto;
+    }
+
+    .carbon-calculator h1 {
+        font-size: 1.8em;
+    }
+
+    .subtitle {
+        font-size: 0.9em;
+    }
+
+    .launch-text {
+        font-size: 0.9em;
+    }
+
+    .know-more-btn {
+        padding: 8px 16px;
+        font-size: 0.6em;
     }
 
 
@@ -991,6 +994,27 @@
     #learn3{
         font-size:12px;
     }
+    .carbon-calculator {
+        padding: 20px;
+        border-radius: 15px;
+    }
+
+    .carbon-calculator h1 {
+        font-size: 1.3em;
+    }
+
+    .subtitle {
+        font-size: 0.6em;
+    }
+
+    .launch-text {
+        font-size: 0.8em;
+    }
+
+    .know-more-btn {
+        padding: 6px 12px;
+        font-size: 0.5em;
+    }
 
 
     
@@ -1020,23 +1044,9 @@
     .circle-container{
         display:none;
     }
-    .report {
-        margin-left: 5%;
-        margin-right: 5%;
-    }
+   
     
-    .report h3, .report h4 {
-        margin-left: 20%;
-    }
     
-    .report h1 {
-        margin-left: 10%;
-        font-size: 36px;
-    }
-    
-    .calculate-now {
-        margin-left: 20%;
-    }
     .circle-container{
         display:none;
     }
@@ -1095,29 +1105,9 @@
     .circle-container{
         display:none;
     }
-    .report {
-        margin-left: 2%;
-        margin-right: 2%;
-        padding:10px;
-    }
     
-    .report h3 {
-        font-size: 16px;
-    }
     
-    .report h1 {
-        font-size: 24px;
-    }
-    
-    .report h4 {
-        font-size: 14px;
-    }
-    
-    .btn {
-        font-size: 14px;
-        width:50%;
-        text-align: center;
-    }
+   
     .circle-container{
         display:none;
     }
